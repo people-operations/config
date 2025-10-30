@@ -1,0 +1,34 @@
+# Configuration values for people-operations
+
+# General settings
+organization:
+  name: ""
+  domain: ""
+
+# Team configuration
+teams:
+  - name: ""
+    description: ""
+    members: []
+
+# Employee settings
+employees:
+  onboarding:
+    enabled: true
+    duration_days: 30
+  offboarding:
+    enabled: true
+    checklist_required: true
+
+# Access and permissions
+permissions:
+  default_role: "member"
+  admin_approval_required: true
+
+# Notifications
+notifications:
+  email:
+    enabled: true
+  slack:
+    enabled: false
+    webhook_url: ""
