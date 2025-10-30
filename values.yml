@@ -1,4 +1,4 @@
-DB_URL: jdbc:mysql://10.0.1.85:3306/popsdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+DB_URL: jdbc:mysql://10.0.1.48:3306/popsdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
 DB_USERNAME: pops
 DB_PASSWORD: "p0ps#?025!"
 
