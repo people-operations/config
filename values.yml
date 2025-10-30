@@ -1,34 +1,21 @@
-# Configuration values for people-operations
+database:
+  url: jdbc:mysql://localhost:3306/popsdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+  username: pops
+  password: p0ps#?025!
 
-# General settings
-organization:
-  name: ""
-  domain: ""
+firebase:
+  key-path: /opt/pops/keys/pops-srv-employee-firebase-adminsdk-fbsvc-e86c8fbf1b.json
 
-# Team configuration
-teams:
-  - name: ""
-    description: ""
-    members: []
+odoo:
+  url: https://grupo-pops1.odoo.com/jsonrpc
+  db: grupo-pops1
+  uid: 2
+  password: agustd10
 
-# Employee settings
-employees:
-  onboarding:
-    enabled: true
-    duration_days: 30
-  offboarding:
-    enabled: true
-    checklist_required: true
-
-# Access and permissions
-permissions:
-  default_role: "member"
-  admin_approval_required: true
-
-# Notifications
-notifications:
-  email:
-    enabled: true
-  slack:
-    enabled: false
-    webhook_url: ""
+services:
+  pops-srv-employee:
+    url: http://localhost:8081/api-employee
+  pops-srv-projects:
+    url: http://localhost:8082/api-project
+  squad-api:
+    url: http://localhost:8083/api-squad
