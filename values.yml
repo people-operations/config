@@ -1,0 +1,14 @@
+DB_URL: jdbc:mysql://localhost:3306/popsdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+DB_USERNAME: pops
+DB_PASSWORD: "p0ps#?025!"
+
+FIREBASE_KEY_PATH: /opt/pops/keys/pops-srv-employee-firebase-adminsdk-fbsvc-e86c8fbf1b.json
+
+ODOO_URL: https://grupo-pops1.odoo.com/jsonrpc
+ODOO_DB: grupo-pops1
+ODOO_UID: 2
+ODOO_PASSWORD: agustd10
+
+POPS_SRV_EMPLOYEE_URL: http://localhost:8081/api-employee
+POPS_SRV_PROJECTS_URL: http://localhost:8082/api-project
+SQUAD_API_URL: http://localhost:8083/api-squad
